@@ -15,7 +15,7 @@ http://www.xilinx.com/support/documentation/ip_documentation/axi_master_burst/v1
 
 6. simulation setup:
    
-include the provided files in your design.
+include the provided files in your design (or use the provided tcl script)
 
 create a testbench with an enable and reset signal for logic control
   
