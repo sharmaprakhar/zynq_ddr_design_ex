@@ -1,0 +1,22 @@
+//Design definitions
+
+`define FSM_IDLE 				4'd0 
+`define FSM_RECEIEVE_BLOCK		4'd1
+`define FSM_SEND_BLOCK			4'd3
+`define FSM_END_OPERATION		4'd4
+
+`define AXI_FSM_IDLE			5'd0 
+
+`define AXI_FSM_SEND_READ_REQUEST1	5'd1
+`define AXI_FSM_WAIT_FOR_READ_ACK1	5'd2
+`define AXI_FSM_WAIT_FOR_READ_CMPLT1	5'd3
+
+`define AXI_FSM_SEND_WRITE_REQUEST1	5'd13
+`define AXI_FSM_WAIT_FOR_WRITE_ACK1	5'd14
+`define AXI_FSM_WAIT_FOR_WRITE_CMPLT1	5'd15
+
+`define IMAGE_BLOCK_SIZE		120 
+`define IMAGE_NO_BYTES_PER_PIXEL	4
+
+
+
