@@ -14,10 +14,10 @@ https://ems.eit.uni-kl.de/lehre/online-kurse/xilinx-zynq/
 http://www.xilinx.com/support/documentation/ip_documentation/axi_master_burst/v1_00_a/ds844_axi_master_burst.pdf
 
 6. simulation setup:
-  > include the provided files in your design
-  > create a testbench with an enable and reset signal for logic control
-  > tweak the "fixed signals" in the controller module to tweak the read and write parameters
-  > run simulation - data reg should follow the bus2ip_mstrd_d signal for the #<burst length> cycles
-  > the output file (writefileH in the IPIF module) should reflect the ip2bus_mstwr_d signal
+   include the provided files in your design.
+  create a testbench with an enable and reset signal for logic control
+  tweak the "fixed signals" in the controller module to tweak the read and write parameters
+  run simulation - data reg should follow the bus2ip_mstrd_d signal for the #<burst length> cycles
+  the output file (writefileH in the IPIF module) should reflect the ip2bus_mstwr_d signal
 
 Note: This work is open source and doesnt come with any kind of warranty/guarantee or assurance of accuracy or correctness. If you get some initial errors, a run of the mill verilog debugging should set things straight. my email is prakhar.gtm@gmail.com in case you want to write to me for questions.  
